@@ -1,0 +1,90 @@
+<!--Background from https://unsplash.com by Todd Quackenbush-->
+<!--Lightbox script by Lokesh Dhakar from http://www.lokeshdhakar.com Licensed under the Creative Commons Attribution 2.5 License
+-->
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Żłobek małe żabki</title>
+<link rel="shortcut icon" href="img/icon.jpg"/>
+<meta name="description" content=" " />
+<meta name="keywords" content=" " />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Berkshire+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	function licz()
+{
+var dzisiaj= new Date();
+
+var godzina= dzisiaj.getHours();
+if (godzina<10){godzina="0"+godzina;}
+var minuta= dzisiaj.getMinutes();
+if (minuta<10){minuta="0"+minuta;}
+var sekunda= dzisiaj.getSeconds();
+if (sekunda<10){sekunda="0"+sekunda;}
+
+document.getElementById("clock").innerHTML= godzina+":"+minuta+":"+sekunda;
+setTimeout("licz()",1000);
+}
+</script>
+
+
+</head>
+
+<body onload="licz ();">
+	<div id="container">
+	
+		<div id="cname">
+		Małe żabki
+		</div>
+		<hr  width=70% color="black" size="4"/>
+	<div id="nav">
+		<div style="display: inline-block; width:65px;"></div>
+		<div class="option"><a href="index.html" class="menu">Strona główna</a></div>
+		<div class="option"><a href="aktualnosci.html" class="menu">Aktualności</a></div>
+		<div class="option"><a href="ceny.html" class="menu">Godziny otwarcia</a></div>
+		<div class="option"><a href="kontakt.html" class="menu">Kontakt</a></div>
+		<div style="clear:both"></div>
+		</div>
+
+		
+		<div id="logo">
+		<img src="img/logo.jpg" alt="" width="1000px"/>
+		</div>
+		
+		<div id="banner">
+		Opieka nad dziećmi od 20 tygodnia życia do 3 lat.
+		</div>
+		
+		<div id="content">
+		<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor varius maximus. Fusce tempor ultricies nisl, ac lacinia mauris dapibus nec. Nam pretium sollicitudin neque, nec rhoncus neque dapibus eu. Ut et hendrerit libero. Quisque convallis massa eget pharetra placerat. Phasellus pulvinar finibus semper. Curabitur sed feugiat lectus. Suspendisse potenti. Praesent quis neque eget mi vestibulum sollicitudin id ut ligula. Nunc lobortis egestas tellus ultrices imperdiet. Suspendisse vitae mi velit. Curabitur maximus mauris ac tortor ullamcorper pharetra.
+
+Quisque augue nulla, aliquam sit amet malesuada vel, varius eget risus. Praesent porttitor nibh quis risus blandit tristique. Integer nec sollicitudin nulla, eget placerat augue. Sed pulvinar facilisis augue id tempor. Pellentesque et lacus vel nisi varius vestibulum et ullamcorper tortor. Nulla fringilla egestas quam at pulvinar. Aenean sagittis, leo sit amet sodales ultricies, nibh mi commodo felis, sed varius magna felis in nulla. Ut eget iaculis nisi, eget pellentesque odio.
+
+Donec sagittis dictum diam sit amet molestie. Nam ac commodo risus. Vestibulum gravida risus lectus, vel placerat odio sollicitudin ac. Suspendisse vitae sagittis nunc. Quisque vulputate elementum rhoncus. Pellentesque viverra justo sit amet nulla dignissim eleifend. Curabitur commodo, sapien ac pharetra venenatis, est ipsum rutrum ex, sit amet imperdiet nisl metus ultricies magna. Vestibulum commodo leo eget leo efficitur, nec placerat augue elementum. Fusce tincidunt libero nec risus vehicula, eget mollis ex sollicitudin. Etiam cursus id felis in lobortis. Maecenas neque nisl, semper vitae diam vel, mattis volutpat mauris. Duis interdum vitae quam sollicitudin pellentesque. Curabitur in eros eu nisi luctus euismod. Aliquam erat volutpat. Pellentesque a ligula iaculis, accumsan quam sed, malesuada odio. Maecenas ut urna euismod, sodales ipsum sit amet, fringilla nunc. 
+		</p>
+		</div>
+
+		<div id="footer">
+		<div id="footerL">
+		Twoje dziecko rośnie z każdą chwilą.
+		</div>
+		<div id="footerM">
+		<img src="img/stopka1.png" alt="" width="150px"/>
+		</div>
+		<div id="clock">
+		</div>
+		<div id="like">
+		
+		
+		Address<br/>
+		Phone number<br/>
+	
+		</div>
+
+	</div>
+
+</body>
+</html>

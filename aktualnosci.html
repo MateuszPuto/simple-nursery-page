@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Żłobek małe żabki</title>
+<link rel="shortcut icon" href="img/icon.jpg"/>
+<meta name="description" content=" " />
+<meta name="keywords" content=" " />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Berkshire+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	function licz()
+{
+var dzisiaj= new Date();
+
+var godzina= dzisiaj.getHours();
+if (godzina<10){godzina="0"+godzina;}
+var minuta= dzisiaj.getMinutes();
+if (minuta<10){minuta="0"+minuta;}
+var sekunda= dzisiaj.getSeconds();
+if (sekunda<10){sekunda="0"+sekunda;}
+
+document.getElementById("clock").innerHTML= godzina+":"+minuta+":"+sekunda;
+setTimeout("licz()",1000);
+}
+</script>
+
+
+</head>
+
+<body onload="licz ();">
+
+	<div id="container">
+	<div id="cname">
+		Małe żabki
+		</div>
+		<hr  width=70% color="black" size="4"/>
+		<div id="nav">
+		<div style="display: inline-block; width:65px;"></div>
+		<div class="option"><a href="index.html" class="menu">Strona główna</a></div>
+		<div class="option"><a href="aktualnosci.html" class="menu">Aktualności</a></div>
+		<div class="option"><a href="ceny.html" class="menu">Godziny otwarcia i cena</a></div>
+		<div class="option"><a href="kontakt.html" class="menu">Kontakt</a></div>
+		<div style="clear:both"></div>
+		</div>
+		
+		
+	<div id="aktu">
+		
+	<div class="news">
+	<div class="newsL"><a href="1.html"><img src="img/1.jpg"/></a></div>
+	<div class="newsR">
+	<h1 style="font-weight: 900|Berkshire; font-size: 30px;">Lorem ipsum</h1></br>
+	<a href="1.html" class="new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit, ligula eget dignissim hendrerit, turpis odio scelerisque nisl, at pharetra ex magna vel dolor. Duis ornare sed lorem non mollis. Integer pulvinar risus vitae lectus viverra ullamcorper. Nullam varius non quam ullamcorper venenatis. Nullam in auctor justo. >>>>>></a></div>
+	<div style="clear: both;"></div>
+	</div>
+		
+	<div class="news">
+	<div class="newsL"><img src=""/></div>
+	<div class="newsR"></div>
+	<div style="clear: both;"></div>
+	</div>
+	
+	<div class="news">
+	<div class="newsL"><a href="1.html"><img src="img/1.jpg"/></a></div>
+	<div class="newsR"><h1 style="font-weight: 900|Berkshire; font-size: 30px;">Galeria zdjęć</h1></br>
+	<a href="1.html" class="new">Zobacz jak wygląda żłobek małe żabki. Zdjęcia z naszego żłobka. Kliknij tutaj aby przejść do galerii. >>>>>></a></div>
+	<div style="clear: both;"></div>
+	</div>
+		
+	</div>
+		
+	
+		<div id="footer">
+		<div id="footerL">
+		Twoje dziecko rośnie z każdą chwilą.
+		</div>
+		<div id="footerM">
+		<img src="img/stopka1.png" alt="" width="150px"/>
+		</div>
+		<div id="clock">
+		</div>
+		<div id="like">
+		
+		
+		Address<br/>
+		Phone numer<br/>
+	
+		</div>
+
+	</div>
+	
+</body>
+</html>
+

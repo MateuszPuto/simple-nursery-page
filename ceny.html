@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Żłobek małe żabki</title>
+<link rel="shortcut icon" href="img/icon.jpg"/>
+<meta name="description" content=" " />
+<meta name="keywords" content=" " />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Berkshire+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+	function licz()
+{
+var dzisiaj= new Date();
+
+var godzina= dzisiaj.getHours();
+if (godzina<10){godzina="0"+godzina;}
+var minuta= dzisiaj.getMinutes();
+if (minuta<10){minuta="0"+minuta;}
+var sekunda= dzisiaj.getSeconds();
+if (sekunda<10){sekunda="0"+sekunda;}
+
+document.getElementById("clock").innerHTML= godzina+":"+minuta+":"+sekunda;
+setTimeout("licz()",1000);
+}
+</script>
+
+</head>
+
+<body onload="licz ();">
+	<div id="container">
+	<div id="cname">
+		Małe żabki
+		</div>
+		<hr  width=70% color="black" size="4"/>
+		<div id="nav">
+		<div style="display: inline-block; width:65px;"></div>
+		<div class="option"><a href="index.html" class="menu">Strona główna</a></div>
+		<div class="option"><a href="aktualnosci.html" class="menu">Aktualności</a></div>
+		<div class="option"><a href="ceny.html" class="menu">Godziny otwarcia</a></div>
+		<div class="option"><a href="kontakt.html" class="menu">Kontakt</a></div>
+		<div style="clear:both"></div>
+		</div>
+	<div id="tlo">
+		<div>
+		<div>
+	
+		</div>
+		
+			<div id="opening">
+			<h1 style="font-weight: 900|Berkshire; font-size: 25px;">Godziny otwarcia</h1><br/>
+			<div style="float:left; padding: 10px;">
+			poniedziałek<br/>
+			wtorek<br/>
+			środa<br/>
+			czwartek<br/>
+			piątek<br/>
+			sobota<br/>
+			niedziela<br/>
+			</div>
+			<div style="float:left; margin-left: 50px; padding: 10px;">
+			6:30-18:00<br/>
+			6:30-18:00<br/>
+			6:30-18:00<br/>
+			6:30-18:00<br/>
+			6:30-18:00<br/>
+			zamknięte<br/>
+			zamknięte<br/>
+			</div>
+			<div style="clear:both;"></div>
+			</div>
+		
+			<div id="month">
+			<h1 style="font-weight: 900|Berkshire; font-size: 25px;">Ceny za miesiąc</h1><br/>
+			Opłata adaptacyjna* 300 zł<br/>
+			9 godzin---------------700 zł<br/>
+			8 godzin---------------650 zł<br/>
+			7 godzin---------------600 zł<br/>
+			6 godzin---------------550 zł<br/>
+			5 godzin---------------500 zł<br/>
+			Wpisowe** wynosi 250 złotych.
+			</div>
+			<div style="clear:both"></div>
+			
+			<div id="meals">
+			<h1 style="font-weight: 900|Berkshire; font-size: 25px;">wyżywienie: śniadanie, dwudaniowy obiad i podwieczorek</h1>
+			<img src="img/ticket2.png" alt="koszt posiłków 10 złotych"/><!--Photo from http://www.graphicsfuel.com/ by Rafi-->
+			</div>
+			
+			<div id="hours">
+			<h1 style="font-weight: 900|Berkshire; font-size: 25px;">Karnety</h1><br/>
+			10 godzin----------100 zł <br/>
+			20 godzin----------180 zł <br/>
+			50 godzin----------350 zł <br/>
+			</div>
+			<div style="clear:both"></div>
+		
+			<div id="more">
+			<h1 style="font-weight: 900|Berkshire; font-size: 25px;">dodatkowe informacje:</h1><br/>
+			<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor varius maximus. Fusce tempor ultricies nisl, ac lacinia mauris dapibus nec. Nam pretium sollicitudin neque, nec rhoncus neque dapibus eu. Ut et hendrerit libero. Quisque convallis massa eget pharetra placerat. Phasellus pulvinar finibus semper. Curabitur sed feugiat lectus. Suspendisse potenti. Praesent quis neque eget mi vestibulum sollicitudin id ut ligula. Nunc lobortis egestas tellus ultrices imperdiet. Suspendisse vitae mi velit. Curabitur maximus mauris ac tortor ullamcorper pharetra.
+
+Quisque augue nulla, aliquam sit amet malesuada vel, varius eget risus. Praesent porttitor nibh quis risus blandit tristique. Integer nec sollicitudin nulla, eget placerat augue. Sed pulvinar facilisis augue id tempor. Pellentesque et lacus vel nisi varius vestibulum et ullamcorper tortor. Nulla fringilla egestas quam at pulvinar. Aenean sagittis, leo sit amet sodales ultricies, nibh mi commodo felis, sed varius magna felis in nulla. Ut eget iaculis nisi, eget pellentesque odio.
+			<p/>
+			</div>
+		
+		
+	<div id="footer">
+		<div id="footerL">
+		Twoje dziecko rośnie z każdą chwilą.
+		</div>
+		<div id="footerM">
+		<img src="img/stopka1.png" alt="" width="150px"/>
+		</div>
+		<div id="clock">
+		</div>
+		<div id="like">
+		
+		
+		Address<br/>
+		Phone number<br/>
+	
+		</div>
+
+	</div>
+		
+		
+		
+		
+		
+		
+</div>
+	</div>
+	
+</body>
+</html>

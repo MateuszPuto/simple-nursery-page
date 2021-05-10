@@ -1,0 +1,258 @@
+body
+{
+font-family: 'Lato', sans-serif;
+background-image: url(tlo.jpg);/*Photo from https://unsplash.com by Todd Quackenbush*/
+background-size: cover;
+background-attachment: fixed;  
+}
+
+#container
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#cname
+{
+text-align: center;
+font-weight: 900;
+font-size: 30px;
+padding-top: 20px;
+}
+
+#nav
+{
+align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+background-color: //#499f65; 
+margin-bottom:10px;
+}
+
+.option
+{
+font-family: 'Berkshire Swash', cursive;
+text-align: center;
+font-size: 30px;
+display: inline-block;
+min-width: 100px;
+padding-right: 15px;
+padding-left: 15px;
+border-radius: 5px;
+}
+
+.option:hover
+{
+background-color: #FF8482;//#1D4028; //#0FDB57;
+cursor: pointer;
+}
+
+#logo
+{
+text-align: center;
+margin-bottom: -3px;
+}
+
+#banner
+{
+font-size: 30px;
+background-color: #499f65;
+padding: 20px;
+text-align: center;
+}
+#content
+{
+background-color: white; //#D2FAF0;//#F0FDFF;
+line-height: 25px;
+padding: 20px;
+}
+
+#footer
+{
+background-color:  #FF8482;
+height: 120px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+#footerL
+{
+float: left;
+padding-left: 40px;
+padding-top: 45px;
+color: white;
+font-size: 20px;
+}
+
+#footerM
+{
+float: left;
+}
+
+#clock
+{
+float: left;
+padding-left: 20px;
+padding-top: 30px;
+color: white;
+font-size: 20px;
+}
+
+#like
+{
+float: left;
+margin-top: 50px;
+margin-left: 100px;
+color: white;
+}
+
+.a
+{
+padding: 10px;
+
+}
+
+.aL
+{
+float: left;
+width: 264px;
+height: 264px;
+}
+
+.aR
+{
+float: right;
+width: 600px;
+height: 155px;
+border: 5px double #000000;
+font-size: 50px;
+text-align: center;
+padding-top: 80px;
+
+}
+
+#map
+{
+text-align: center;
+background-color: #F0FDFF;
+}
+
+.menu
+{
+color: black;
+text-decoration: none;
+font-size: 30px;
+}
+
+.menu:hover
+{
+color: #F0FDFF;
+text-decoration: none;
+}
+
+
+.news
+{
+border: 2px dotted #000000;
+margin-bottom: 20px;
+background-color: #D5AB6A;
+}
+
+
+.newsL
+{
+height: 270px;
+width: 480px;
+float: left;
+}
+
+.newsR
+{
+float: left;
+font-size: 20px;
+text-align: justify;
+height: 270px;
+width: 500px;
+}
+
+.new 
+{
+text-decoration: none;
+color: black;
+}
+
+.new:hover
+{
+text-decoration: none;
+color: white;
+}
+
+#aktu
+{
+background-color: #F0FDFF;
+}
+
+#opening
+{
+float: left;
+margin-left: 150px;
+border: 2px dotted #000000;
+margin-top: 50px;
+height: 320px;
+width:320px;
+text-align: center;
+background-color: #DAB47B;
+margin-bottom: 30px;
+line-height: 25px;
+}
+
+#month
+{
+float: right;
+margin-right: 150px;
+border: 2px dotted #000000;
+margin-top: 50px;
+height: 320px;
+width: 320px;
+text-align: center;
+background-color: #DAB47B;
+margin-bottom: 30px;
+line-height: 25px;
+}
+
+#meals
+{
+float: left;
+margin-left: 150px;
+height: 320px;
+width: 320px;
+text-align: center;
+}
+
+#hours
+{
+float: right;
+margin-right: 150px;
+border: 2px dotted #000000;
+height: 320px;
+width: 320px;
+text-align: center;
+background-color: #DAB47B;
+line-height: 25px;
+}
+
+#more
+{
+border: 2px dotted #000000;
+margin-top: 50px;
+background-color: #DAB47B;
+line-height: 25px;
+}
+
+#tlo
+{
+background-color: #F0FDFF;
+}
+
+
